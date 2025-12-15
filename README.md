@@ -17,13 +17,13 @@ The focus is on:
 
 ## 1. AlexNet
 ### Original Implementation
-Basic AlexNet architecture with simple Conv2D layers
+1. Basic AlexNet architecture with simple Conv2D layers
 
-Manual configuration for ImageNet (1000 classes)
+2. Manual configuration for ImageNet (1000 classes)
 
-No batch normalization
+3. No batch normalization
 
-No training pipeline or dataset handling
+4. No training pipeline or dataset handling
 
 ### Improvements made
 **File:** `alexnet.ipynb`
@@ -66,9 +66,11 @@ A modernized AlexNet-style CNN implemented as a clean `tf.keras.Sequential` subc
 ## 2. Deep Reinforcement Learning
 
 ### Original Implementation
-Traditional Q-learning with Q-matrix
-Simple graph navigation problem
-Basic visualization
+1. Traditional Q-learning with Q-matrix
+
+2. Simple graph navigation problem
+  
+3. Basic visualization
 **File:** `deep reinforcement learningh.ipynb`
 
 ### Improvements made
@@ -99,10 +101,13 @@ Basic visualization
 **File:** `lstm.ipynb`
 
 ### Original Implementation
-Single LSTM layer (10 units)
-Basic sequence prediction
-Hardcoded dataset path (Windows)
-Simple visualization
+1. Single LSTM layer (10 units)
+
+2. Basic sequence prediction
+
+3. Hardcoded dataset path (Windows)
+
+4. Simple visualization
 
 ### Key improvements made
 
@@ -138,10 +143,13 @@ python simple_lstm_passengers.py
 A readable character-level RNN for next-character prediction.
 
 ### Original Implementation
-SimpleRNN layer (50 units)
-Small text corpus
-Fixed sequence length (5)
-Greedy decoding (argmax)
+1. SimpleRNN layer (50 units)
+
+2. Small text corpus
+
+3. Fixed sequence length (5)
+
+4. Greedy decoding (argmax)
 
 ### Improvements made
 
@@ -164,9 +172,11 @@ Greedy decoding (argmax)
 A simple RL demo where two agents learn Tic-Tac-Toe via self-play, then you can play against the trained agent.
 
 ### Original Implementation
-Traditional Q-learning with state-value dictionary
-Simple exploration strategy
-Basic text-based interface
+1. Traditional Q-learning with state-value dictionary
+
+2. Simple exploration strategy
+
+3. Basic text-based interface
 
 ### Key fixes & improvements made
 
