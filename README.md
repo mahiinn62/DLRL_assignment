@@ -16,7 +16,7 @@ The focus is on:
 5. **Tic-Tac-Toe Reinforcement Learning (Self-Play)**
 
 # 1. AlexNet
-### Original Implementation
+### ✅Original Implementation
 1. Basic AlexNet architecture with simple Conv2D layers
 
 2. Manual configuration for ImageNet (1000 classes)
@@ -25,7 +25,7 @@ The focus is on:
 
 4. No training pipeline or dataset handling
 
-### Improvements made
+### ✅Improvements made
 **File:** `alexnet.ipynb`
 
 A modernized AlexNet-style CNN implemented as a clean `tf.keras.Sequential` subclass.
@@ -69,7 +69,7 @@ python alexnet_modern.py
 
 # 2. Deep Reinforcement Learning
 
-### Original Implementation
+### ✅Original Implementation
 1. Traditional Q-learning with Q-matrix
 
 2. Simple graph navigation problem
@@ -77,7 +77,7 @@ python alexnet_modern.py
 3. Basic visualization
 **File:** `deep reinforcement learningh.ipynb`
 
-### Improvements made
+### ✅Improvements made
 
 * **Bug fix:** removed incorrect global variable usage when sampling actions.
 * **Modern NumPy usage:** replaced `np.matrix` with `np.ndarray`.
@@ -113,7 +113,7 @@ python improved_q_learning_graph.py
 
 **File:** `lstm.ipynb`
 
-### Original Implementation
+### ✅Original Implementation
 1. Single LSTM layer (10 units)
 
 2. Basic sequence prediction
@@ -122,7 +122,7 @@ python improved_q_learning_graph.py
 
 4. Simple visualization
 
-### Key improvements made
+### ✅Key improvements made
 
 * Consistent `tensorflow.keras` imports
 * Correct LSTM input shape: `(samples, timesteps, features)`
@@ -159,7 +159,7 @@ pip install tensorflow pandas matplotlib scikit-learn numpy
 
 A readable character-level RNN for next-character prediction.
 
-### Original Implementation
+### ✅Original Implementation
 1. SimpleRNN layer (50 units)
 
 2. Small text corpus
@@ -168,7 +168,7 @@ A readable character-level RNN for next-character prediction.
 
 4. Greedy decoding (argmax)
 
-### Improvements made
+### ✅Improvements made
 
 * Uses `tensorflow.keras` only
 * Clear data pipeline with `to_categorical`
@@ -197,14 +197,14 @@ pip install tensorflow numpy
 
 A simple RL demo where two agents learn Tic-Tac-Toe via self-play, then you can play against the trained agent.
 
-### Original Implementation
+### ✅Original Implementation
 1. Traditional Q-learning with state-value dictionary
 
 2. Simple exploration strategy
 
 3. Basic text-based interface
 
-### Key fixes & improvements made
+### ✅Key fixes & improvements made
 
 * Correct initial player symbol
 * Robust CLI parsing (works in notebooks)
@@ -225,7 +225,7 @@ python tic_tac_toe_rl.py --rounds 10000 --verbose_every 2000
 
 ## 🎯Conclusion
 
-This repository consolidates several classic DL and RL examples and improves them using modern best practices:
+✅This repository consolidates several classic DL and RL examples and improves them using modern best practices:
 
 * Safer APIs and bug fixes
 
