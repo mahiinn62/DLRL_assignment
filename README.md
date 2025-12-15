@@ -16,13 +16,13 @@ The focus is on:
 5. **Tic-Tac-Toe Reinforcement Learning (Self-Play)**
 
 ## 1. AlexNet
-## Original Implementation
+### Original Implementation
 Basic AlexNet architecture with simple Conv2D layers
 Manual configuration for ImageNet (1000 classes)
 No batch normalization
 No training pipeline or dataset handling
 
-## Improvements made
+### Improvements made
 **File:** `alexnet.ipynb`
 
 A modernized AlexNet-style CNN implemented as a clean `tf.keras.Sequential` subclass.
@@ -62,13 +62,13 @@ A modernized AlexNet-style CNN implemented as a clean `tf.keras.Sequential` subc
 
 ## 2. Deep Reinforcement Learning
 
-## Original Implementation
+### Original Implementation
 Traditional Q-learning with Q-matrix
 Simple graph navigation problem
 Basic visualization
 **File:** `deep reinforcement learningh.ipynb`
 
-## Improvements made
+### Improvements made
 
 * **Bug fix:** removed incorrect global variable usage when sampling actions.
 * **Modern NumPy usage:** replaced `np.matrix` with `np.ndarray`.
@@ -95,7 +95,7 @@ Basic visualization
 
 **File:** `lstm.ipynb`
 
-## Original Implementation
+### Original Implementation
 Single LSTM layer (10 units)
 Basic sequence prediction
 Hardcoded dataset path (Windows)
@@ -134,7 +134,7 @@ python simple_lstm_passengers.py
 
 A readable character-level RNN for next-character prediction.
 
-## Original Implementation
+### Original Implementation
 SimpleRNN layer (50 units)
 Small text corpus
 Fixed sequence length (5)
@@ -160,7 +160,7 @@ Greedy decoding (argmax)
 
 A simple RL demo where two agents learn Tic-Tac-Toe via self-play, then you can play against the trained agent.
 
-## Original Implementation
+### Original Implementation
 Traditional Q-learning with state-value dictionary
 Simple exploration strategy
 Basic text-based interface
