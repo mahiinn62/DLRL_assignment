@@ -7,7 +7,7 @@ The focus is on:
 * Readability and reusability
 * Minimal but meaningful improvements over original examples
 
-## Contents
+## 📋Contents
 
 1. **AlexNet**
 2. **Deep Reinforcement Learning**
@@ -223,7 +223,7 @@ Optional arguments:
 python tic_tac_toe_rl.py --rounds 10000 --verbose_every 2000
 ```
 
-## Conclusion
+## 🎯Conclusion
 
 This repository consolidates several classic DL and RL examples and improves them using modern best practices:
 
