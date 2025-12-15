@@ -16,7 +16,13 @@ The focus is on:
 5. **Tic-Tac-Toe Reinforcement Learning (Self-Play)**
 
 ## 1. AlexNet
+## Original Implementation
+Basic AlexNet architecture with simple Conv2D layers
+Manual configuration for ImageNet (1000 classes)
+No batch normalization
+No training pipeline or dataset handling
 
+## Improvements made
 **File:** `alexnet.ipynb`
 
 A modernized AlexNet-style CNN implemented as a clean `tf.keras.Sequential` subclass.
@@ -56,9 +62,13 @@ A modernized AlexNet-style CNN implemented as a clean `tf.keras.Sequential` subc
 
 ## 2. Deep Reinforcement Learning
 
+## Original Implementation
+Traditional Q-learning with Q-matrix
+Simple graph navigation problem
+Basic visualization
 **File:** `deep reinforcement learningh.ipynb`
 
-### Why these changes?
+## Improvements made
 
 * **Bug fix:** removed incorrect global variable usage when sampling actions.
 * **Modern NumPy usage:** replaced `np.matrix` with `np.ndarray`.
@@ -85,9 +95,13 @@ A modernized AlexNet-style CNN implemented as a clean `tf.keras.Sequential` subc
 
 **File:** `lstm.ipynb`
 
-A compact LSTM example for time-series forecasting using airline passenger data.
+## Original Implementation
+Single LSTM layer (10 units)
+Basic sequence prediction
+Hardcoded dataset path (Windows)
+Simple visualization
 
-### Key improvements
+### Key improvements made
 
 * Consistent `tensorflow.keras` imports
 * Correct LSTM input shape: `(samples, timesteps, features)`
@@ -120,7 +134,13 @@ python simple_lstm_passengers.py
 
 A readable character-level RNN for next-character prediction.
 
-### Improvements
+## Original Implementation
+SimpleRNN layer (50 units)
+Small text corpus
+Fixed sequence length (5)
+Greedy decoding (argmax)
+
+### Improvements made
 
 * Uses `tensorflow.keras` only
 * Clear data pipeline with `to_categorical`
@@ -140,7 +160,12 @@ A readable character-level RNN for next-character prediction.
 
 A simple RL demo where two agents learn Tic-Tac-Toe via self-play, then you can play against the trained agent.
 
-### Key fixes & improvements
+## Original Implementation
+Traditional Q-learning with state-value dictionary
+Simple exploration strategy
+Basic text-based interface
+
+### Key fixes & improvements made
 
 * Correct initial player symbol
 * Robust CLI parsing (works in notebooks)
