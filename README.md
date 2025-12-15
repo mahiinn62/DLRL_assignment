@@ -225,7 +225,7 @@ python tic_tac_toe_rl.py --rounds 10000 --verbose_every 2000
 
 ## Conclusion
 
-This repository consolidates several classic ML and RL examples and improves them using modern best practices:
+This repository consolidates several classic DL and RL examples and improves them using modern best practices:
 
 * Safer APIs and bug fixes
 
