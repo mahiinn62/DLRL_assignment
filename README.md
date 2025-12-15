@@ -15,7 +15,7 @@ The focus is on:
 4. **RNN**
 5. **Tic-Tac-Toe Reinforcement Learning (Self-Play)**
 
-## 1. AlexNet
+# 1. AlexNet
 ### Original Implementation
 1. Basic AlexNet architecture with simple Conv2D layers
 
@@ -67,7 +67,7 @@ How to run
 python alexnet_modern.py
 ```
 
-## 2. Deep Reinforcement Learning
+# 2. Deep Reinforcement Learning
 
 ### Original Implementation
 1. Traditional Q-learning with Q-matrix
@@ -109,7 +109,7 @@ How to run
 python improved_q_learning_graph.py
 ```
 
-## 3. LSTM 
+# 3. LSTM 
 
 **File:** `lstm.ipynb`
 
@@ -153,7 +153,7 @@ Dependencies
 pip install tensorflow pandas matplotlib scikit-learn numpy
 ```
 
-## 4. RNN
+# 4. RNN
 
 **File:** `rnn.ipynb`
 
@@ -191,7 +191,7 @@ Dependencies:
 pip install tensorflow numpy
 ```
 
-## 5. Tic-Tac-Toe Reinforcement Learning (Improved)
+# 5. Tic-Tac-Toe Reinforcement Learning (Improved)
 
 **File:** `tic_tac_toe_rl.ipynb`
 
