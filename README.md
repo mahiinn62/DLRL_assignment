@@ -18,8 +18,11 @@ The focus is on:
 ## 1. AlexNet
 ### Original Implementation
 Basic AlexNet architecture with simple Conv2D layers
+
 Manual configuration for ImageNet (1000 classes)
+
 No batch normalization
+
 No training pipeline or dataset handling
 
 ### Improvements made
