@@ -187,7 +187,7 @@ A simple RL demo where two agents learn Tic-Tac-Toe via self-play, then you can 
 * Clear training progress output
 * Cleaner code structure and type hints
 
-##Conclusion
+## Conclusion
 
 This repository consolidates several classic ML and RL examples and improves them using modern best practices:
 
