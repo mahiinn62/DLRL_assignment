@@ -62,6 +62,10 @@ A modernized AlexNet-style CNN implemented as a clean `tf.keras.Sequential` subc
       weight_decay=5e-4
   )
   ```
+How to run
+```python
+python alexnet_modern.py
+```
 
 ## 2. Deep Reinforcement Learning
 
@@ -95,6 +99,15 @@ A modernized AlexNet-style CNN implemented as a clean `tf.keras.Sequential` subc
   * Random seeds
   * Fallback logic
   * Informative prints and plots
+
+Requirements
+```python
+pip install numpy matplotlib networkx
+```
+How to run
+```python
+python improved_q_learning_graph.py
+```
 
 ## 3. LSTM 
 
@@ -135,6 +148,10 @@ Without CSV (synthetic data):
 ```bash
 python simple_lstm_passengers.py
 ```
+Dependencies
+```bash
+pip install tensorflow pandas matplotlib scikit-learn numpy
+```
 
 ## 4. RNN
 
@@ -165,6 +182,15 @@ A readable character-level RNN for next-character prediction.
 * Robust seed handling
 * Reproducible defaults
 
+How to run
+```bash
+python simple_char_rnn.py --epochs 80 --seed "The handsome "
+```
+Dependencies:
+```bash
+pip install tensorflow numpy
+```
+
 ## 5. Tic-Tac-Toe Reinforcement Learning (Improved)
 
 **File:** `tic_tac_toe_rl.ipynb`
@@ -187,16 +213,26 @@ A simple RL demo where two agents learn Tic-Tac-Toe via self-play, then you can 
 * Clear training progress output
 * Cleaner code structure and type hints
 
+How to run
+```bash
+python tic_tac_toe_rl.py
+```
+
+Optional arguments:
+```bash
+python tic_tac_toe_rl.py --rounds 10000 --verbose_every 2000
+```
+
 ## Conclusion
 
 This repository consolidates several classic ML and RL examples and improves them using modern best practices:
 
-Safer APIs and bug fixes
+* Safer APIs and bug fixes
 
-Reproducible experiments
+* Reproducible experiments
 
-Clearer structure for learning and extension
+* Clearer structure for learning and extension
 
-Minimal dependencies and easy execution
+* Minimal dependencies and easy execution
 
 The goal is to provide solid reference implementations that are easy to understand, modify, and build upon.
