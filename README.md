@@ -1,4 +1,4 @@
-# DLRL_assignment
+# Deep Learning and Reinforcement Learning Assignment
 
 This repository contains a collection of **cleaned, modernized, and beginner-friendly DL/RL codes**.
 The focus is on:
