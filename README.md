@@ -1,5 +1,6 @@
 # 🤖Deep Learning and Reinforcement Learning Assignment
 
+## Student Information
 | Category          | Information                                         |
 | ----------------- | --------------------------------------------------- |
 | **Name**          | Mahin Khanum M                                      |
